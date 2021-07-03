@@ -1,0 +1,29 @@
+.info-container {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(46, 44, 41);
+    color: white;
+    margin-bottom: 95vh;
+}
+
+.info {
+    display: flex ;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    line-height: 70px;
+}
+
+@media only screen and (max-width: 960) {
+    .info-container {
+        height: 200px;
+        width: 100%;    
+    }
+
+    .info-container > h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+}
+

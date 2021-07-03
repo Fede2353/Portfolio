@@ -1,0 +1,91 @@
+.projects-container {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+    background-color: black;
+    padding: 30px 0 15px 0;
+    height: 85vh;
+}
+
+.project-title {
+    color: white;
+    width: 40%;
+    text-align: center;
+    font-size: 29px;
+    padding: 0 100px 0 100px;
+}
+
+.project-container {
+    height: 71%;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.project-container > img {
+    object-fit: contain;  /*se adapte al container*/
+    transition: all 0.2s ease-in-out;
+}
+
+.project-container:hover > img {
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+.project-desc {
+    background-color: black;
+    position: absolute;           /*por que el padre es relative podemos colocarlo donde queramos*/
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    padding-left: 30px;
+    border-top-left-radius: 20px;
+    opacity: 0.8;
+}
+
+.project-desc > span {
+    color: white;
+    display: block;
+    font-size: 22px;
+    padding: 20px 0 20px 10px;
+}
+
+.project-desc > a {
+    color: white;
+    display: block;
+    font-size: 22px;
+    padding: 20px 0 20px 10px;
+}
+
+.git-hub {
+   padding-bottom: 80px;
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-size: 25px;
+}
+.git-hub a {
+   color: white;
+   font-size: 25px;
+   text-decoration: none;
+}
+
+
+
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 960px){
+    .projects-container {
+        flex-direction: column;
+    }
+    .project-title {
+        width: 100%;
+        text-align: center;
+        padding: 50px 0 50px 0;
+    }
+    .project-container {
+        width: 100%;
+    }
+}
