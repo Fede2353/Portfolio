@@ -14,14 +14,14 @@ const Projects = () => {
       <img src={projectImage1} alt="asfa" />
     <div className="project-desc">
       {/* <span>s</span> */}
-      <a href="https://focused-jepsen-157680.netlify.app/" target="_blank" rel="noreferrer">Administrador Veterinarias </a>
+      <a href="https://focused-jepsen-157680.netlify.app/" target="_blank" rel="noreferrer">Administrador veterinarias </a>
     </div>
     </div>
     <div className="project-container">
       <img src={defaultProjectImage} alt="asfa" />
     <div className="project-desc">https
       {/* <span>s</span> */}
-      <a href="#" target="_blank" rel="noreferrer">disponible a la brevedad</a>
+      <a href="https://github.com/rampratts/administrador-gimnasios" target="_blank" rel="noreferrer">Administrador de gimnasios</a>
     </div>
     </div>
     <div className="project-container">

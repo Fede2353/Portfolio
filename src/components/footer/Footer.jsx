@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       
         <div className="sns-links">
-        <a title="Linkedin" href="https://www.linkedin.com/in/federico-math%C3%ADas-de-souza-garc%C3%ADa-152bb4142/" target="_blank" rel="noreferrer">
+        <a title="Linkedin" href="linkedin.com/in/federico-de-souza-garcía-152bb4142">
             <i className="fab fa-linkedin linkedin"></i>
           </a>
           <a href="mailto:feffee22@gmail.com" title="Email " target="_blank" rel="noreferrer">
